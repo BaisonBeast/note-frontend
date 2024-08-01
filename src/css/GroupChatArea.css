@@ -1,0 +1,90 @@
+.groupChatArea {
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.groupChatArea_header {
+    display: flex;
+    align-items: center;
+    width: 96.4%;
+    padding: 20px;
+    background: #16008B;
+}
+
+.groupChatArea_userProfile {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #16008B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 0 10px;
+}
+
+.groupChatArea_userName {
+    color: white;
+}
+
+.groupChatArea_main {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    background-color: #DAE5F5;
+}
+
+.groupChatArea_chat {
+    width: 95%;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.groupChatArea_chat-Date {
+    text-align: end;
+    font-weight: bold;
+}
+
+.groupChatArea_footer {
+    display: flex;
+    height: 20%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #16008B;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.groupChatArea-textarea {
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+    color: #333;
+    position: relative;
+}
+
+.groupChatArea_send-button {
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    right: 25px;
+}
+
+.groupChatArea_send-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

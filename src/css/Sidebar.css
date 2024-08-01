@@ -1,0 +1,54 @@
+.sidebar {
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.sidebar_heading {
+    height: 20vh;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar_users {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    overflow-y: auto;
+}
+
+.sidebar_user {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.sidebar_userProfile {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 0 10px;
+}
+
+.siderbar_users_add {
+    position: fixed;
+    cursor: pointer;
+    top: 85%;
+    left: 18%;
+}

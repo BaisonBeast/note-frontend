@@ -1,0 +1,30 @@
+.chatarea {
+    width: 75vw;
+    height: 100vh;
+    background: #DAE5F5;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.chatarea_container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+img {
+    width: 80%;
+}
+
+.chatarea_encry {
+    display: flex;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.chatarea_encry>p {
+    margin-left: 5px;
+}
